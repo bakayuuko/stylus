@@ -3,7 +3,7 @@
 @namespace    github.com/bakayuuko/stylus
 @homepageURL  https://github.com/bakayuuko/stylus
 @supportURL   https://github.com/bakayuuko/stylus/issues
-@updateURL    https://raw.githubusercontent.com/bakayuuko/twitter-gruvbox/master/twitter.user.styl
+@updateURL    https://raw.githubusercontent.com/bakayuuko/stylus/master/twitter.user.styl
 @version      1.0.0
 @license      unlicense
 @author       bakayuuko
@@ -217,6 +217,9 @@
   // Analytics
   body[data-scribe-origin="Mobile"]
     background-color $alt !important
+
+  // decrease brightness
+  .r-1adg3ll { filter: brightness(90%) }
 
   .QuoteTweet { bc: $border }
   .QuoteTweet [data-item-type=tweet] { bg: $border }
